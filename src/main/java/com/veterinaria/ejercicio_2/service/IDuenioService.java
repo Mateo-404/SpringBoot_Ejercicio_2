@@ -9,6 +9,7 @@ public interface IDuenioService {
     public void saveDuenio(Duenio duenio);
 
     public List<Duenio> findAllDuenios();
+
     public Duenio findDuenioById(Long id);
 
     public Duenio updateDuenio(Duenio duenio);

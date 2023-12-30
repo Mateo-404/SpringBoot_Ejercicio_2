@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.veterinaria.ejercicio_2.model.Duenio;
-import com.veterinaria.repository.IDuenioRepository;
+import com.veterinaria.ejercicio_2.repository.IDuenioRepository;
 
 @Service
 public class DuenioService implements IDuenioService {
