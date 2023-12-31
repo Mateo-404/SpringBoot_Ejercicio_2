@@ -44,9 +44,6 @@ public class DuenioController{
     public void deleteDuenio(@PathVariable Long id) {
         service.deleteDuenio(id);
     }
-
-    //4 Crear DTO duenio_mascota
-    
     
     
 }
